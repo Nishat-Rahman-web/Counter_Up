@@ -5,17 +5,23 @@
     margin: 0;
     padding: 0;
     outline: 0;
-    list-style: none;
     box-sizing: border-box;
 }
+ul,ol{
+    list-style: none;
+}
 body{
-    background: url(../images/c1.png);
+    background: url(../images/counter.png);
     background-size: 200%;
     background-repeat : no-repeat;
     background-position : cover;
 }
+.heading{
+    color: hotpink;
+    text-align: center;
+    margin-bottom: 100px;
+}
 .projectCounter ul{
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,8 +31,40 @@ body{
     text-align: center;
     font-family: "Lato", sans-serif;
     color: #fff;
+    padding: 20px 0;
+    border-radius: 20px;
     transition: all linear .2s;
 }
-.projectCounter ul li:hover{
-    transform: scale(1.1);
+.projectCounter ul li:nth-child(1){
+    background: #b813ce;
+    box-shadow: 10px 10px 5px 0px rgba(34, 28, 36, 0.75);
+}
+.projectCounter ul li:nth-child(2){
+    background: #690975;
+    box-shadow: 10px 10px 5px 0px rgba(34, 28, 36, 0.75);
+}
+.projectCounter ul li:nth-child(3){
+    background: #b813ce;
+    box-shadow: 10px 10px 5px 0px rgba(34, 28, 36, 0.75);
+}
+.projectCounter ul li p.number{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 10px;
+}
+.projectCounter ul li p{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+}
+.projectCounter ul li span{
+    width: 60px;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: 0 auto;
+}
+.projectCounter ul li i{
+    font-size: 50px;
+    color: #fff;
 }
