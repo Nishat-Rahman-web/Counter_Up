@@ -35,17 +35,20 @@ body{
     border-radius: 20px;
     transition: all linear .2s;
 }
+.projectCounter ul li:hover{
+    transform: scale(1.1);
+}
 .projectCounter ul li:nth-child(1){
     background: #b813ce;
-    box-shadow: 10px 10px 5px 0px rgba(34, 28, 36, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(243, 241, 245, 0.75);
 }
 .projectCounter ul li:nth-child(2){
     background: #690975;
-    box-shadow: 10px 10px 5px 0px rgba(34, 28, 36, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(243, 241, 245, 0.75);
 }
 .projectCounter ul li:nth-child(3){
     background: #b813ce;
-    box-shadow: 10px 10px 5px 0px rgba(34, 28, 36, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(243, 241, 245, 0.75);
 }
 .projectCounter ul li p.number{
     font-size: 40px;
